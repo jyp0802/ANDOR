@@ -13,10 +13,11 @@ This module is developed mainly for represeting the human or robot tasks, but it
  - [:page_facing_up: References](#page_facing_up-references)
  - [:information_source: Further information](information-source-further-information)
  - [:unlock: License](#unlock-license)
- 
+
 # :orange_book: The general idea
 
-An AND/OR graph *G(N,H)* consists of a set of nodes *N* and a set of hyper-arcs *H*. A node *n ∈ N* represents a *state* of the cooperation, whereas a hyper-arc *h ∈ H* represents a specific *state transition* among states. In particular, a hyper-arc *h* connects a set of *child* nodes *N<sub>C</sub> ⊆ N* to a *parent* node *n<sub>P</sub> ∈ N*. 
+
+An AND/OR graph *G(N,H)* consists of a set of nodes *N* and a set of hyper-arcs *H*. A node *n ∈ N* represents a *state* of the cooperation, whereas a hyper-arc *h ∈ H* represents a specific *state transition* among states. In particular, a hyper-arc *h* connects a set of *child* nodes *N<sub>C</sub> ⊆ N* to a *parent* node *n<sub>P</sub> ∈ N*.
 The relation between child nodes in a hyper-arc is the logic AND, while the relation between different hyper-arcs inducing on the same parent node is the logic OR.
 Each hyper-arc *h ∈ H* corresponds to a sequence of ordered actions, *A(h)*, to be executed by the human operator or the robot to reach the cooperation status described by the parent node.
 
@@ -85,7 +86,7 @@ For more information please contact the follwoing authors:
 
 * [Fulvio Mastrogiovanni](https://www.dibris.unige.it/mastrogiovanni-fulvio):
 
-:email: fulvio.mastrogiovanni@unige.it 
+:email: fulvio.mastrogiovanni@unige.it
 
 
 # :unlock: License
