@@ -1,0 +1,22 @@
+RollerAssembly 9 RollerAssembled
+DrawerRollerSlide 0
+Drawer 0
+Screws365_1 0
+Screws365_2 0
+Screws365_3 0
+RollerInPlace 0
+RollerScrew1 0
+RollerScrew12 0
+RollerAssembled 0
+h1 2 RollerInPlace 5 -
+Drawer
+DrawerRollerSlide
+h2 2 RollerScrew1 5 -
+RollerInPlace
+Screws365_1
+h3 2 RollerScrew12 5 -
+RollerScrew1
+Screws365_2
+h4 2 RollerAssembled 5 -
+RollerScrew12
+Screws365_3

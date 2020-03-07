@@ -1,0 +1,26 @@
+WallCabinetConnected_Assembly 11 WallCabinetConnected_comepleted
+Wall_Screwed 0
+CabinetStructure 0
+KeyHoleBrackets1 0
+KeyHoleBrackets2 0
+KeyHoleBrackets3 0
+KeyHoleBrackets1Placed 0
+KeyHoleBrackets12Placed 0
+KeyHoleBrackets123Placed 0
+CabinetStructurePlacedOnWall 0
+StructureScrewsFixed 0
+WallCabinetConnected_comepleted 0
+h1 2 CabinetStructurePlacedOnWall 3 -
+CabinetStructure
+Wall_Screwed
+h2 2 KeyHoleBrackets1Placed 2 -
+CabinetStructurePlacedOnWall
+KeyHoleBrackets1
+h3 2 KeyHoleBrackets12Placed 2 -
+KeyHoleBrackets1Placed
+KeyHoleBrackets2
+h4 2 KeyHoleBrackets123Placed 2 -
+KeyHoleBrackets12Placed
+KeyHoleBrackets3
+h5 1 WallCabinetConnected_comepleted 2 -
+KeyHoleBrackets123Placed

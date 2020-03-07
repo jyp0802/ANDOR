@@ -1,0 +1,28 @@
+UpDownPlate_WithDowels_Assembly 11 UpDownPlate_WithDowels_Completed
+UpDownPlate 0
+UpDownPlateInPlace 0
+WoodDowel1 0
+WoodDowel2 0
+WoodDowel3 0
+WoodDowel4 0
+UpDownPlate_WoodDowel1 0
+UpDownPlate_WoodDowel12 0
+UpDownPlate_WoodDowel123 0
+UpDownPlate_WoodDowel1234 0
+UpDownPlate_WithDowels_Completed 0
+h1 1 UpDownPlateInPlace 1 -
+UpDownPlate
+h2 2 UpDownPlate_WoodDowel1 1 -
+UpDownPlateInPlace
+WoodDowel1
+h3 2 UpDownPlate_WoodDowel12 1 -
+UpDownPlate_WoodDowel1
+WoodDowel2
+h4 2 UpDownPlate_WoodDowel123 1 -
+UpDownPlate_WoodDowel12
+WoodDowel3
+h5 2 UpDownPlate_WoodDowel1234 1 -
+UpDownPlate_WoodDowel123
+WoodDowel4
+h6 1 UpDownPlate_WithDowels_Completed 1 -
+UpDownPlate_WoodDowel1234

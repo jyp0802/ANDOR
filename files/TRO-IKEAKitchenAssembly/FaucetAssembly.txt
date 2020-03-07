@@ -1,0 +1,38 @@
+FaucetAssembly 14 FaucetAssembled
+FaucetAssembled 0
+Faucet 0
+CabinetTopSurface 0
+Pipe1 0
+Pipe2 0
+Part087 0
+Part142 0
+Part141 0
+Bolt143_1 0
+Bolt143_2 0
+Nut172 0
+FaucetWithPipes 0
+FaucetWithPipesBolt 0
+FaucetWithPipesBolt_InPlace 0
+h1 3 FaucetWithPipes 10 -
+Faucet
+Pipe2
+Pipe1
+h2 2 FaucetWithPipesBolt 8 -
+FaucetWithPipes
+Bolt143_1
+h3 2 FaucetWithPipesBolt_InPlace 5 -
+FaucetWithPipesBolt
+CabinetTopSurface
+h4 6 FaucetAssembled 10 -
+FaucetWithPipesBolt_InPlace
+Part087
+Part142
+Part141
+Bolt143_2
+Nut172
+h5 5 FaucetAssembled 10 -
+FaucetWithPipesBolt_InPlace
+Part142
+Part141
+Bolt143_2
+Nut172

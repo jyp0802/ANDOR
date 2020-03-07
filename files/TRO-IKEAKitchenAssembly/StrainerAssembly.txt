@@ -1,0 +1,20 @@
+StrainerAssembly 9 StrainerAssembled
+TopPart 0
+FoamGasket 0
+RubberGasket 0
+BottomNut 0
+Sink 0
+basket 0
+screw 0
+Sink_TopPart_FoamGasket 0
+StrainerAssembled 0
+h1 3 Sink_TopPart_FoamGasket 5 -
+Sink
+TopPart
+FoamGasket
+h2 5 StrainerAssembled 10 -
+Sink_TopPart_FoamGasket
+RubberGasket
+BottomNut
+screw
+basket

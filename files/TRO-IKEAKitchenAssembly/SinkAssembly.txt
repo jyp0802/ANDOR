@@ -1,0 +1,24 @@
+SinkAssembly 10 SinkAssembled
+SinkAssembled 0
+Sink 0
+SinkClips 0
+SinkInPlace 0
+Cabinet 0
+CabinetHoleFixed 0
+TopCabinetSurfaceWithSilicon 0
+SinkWithClips 0
+Silicon 0
+SinkWithClipsInPlace 0
+h1 1 CabinetHoleFixed 8 -
+Cabinet
+h2 2 TopCabinetSurfaceWithSilicon 8 -
+CabinetHoleFixed
+Silicon
+h3 2 SinkWithClips 15 -
+Sink
+SinkClips
+h4 2 SinkWithClipsInPlace 10 -
+SinkWithClips
+TopCabinetSurfaceWithSilicon
+h5 1 SinkAssembled 10 -
+SinkWithClipsInPlace

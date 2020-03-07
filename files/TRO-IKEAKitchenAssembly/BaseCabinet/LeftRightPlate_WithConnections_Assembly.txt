@@ -1,0 +1,27 @@
+LeftRightPlate_WithConnections_Assembly 11 LeftRightPlate_WithConnections_Completed
+LeftRightPlate 0
+CamLockScrews1 0
+CamLockScrews2 0
+SupportBracketSteelParts1 0
+Screw100344_1 0
+Screw100344_2 0
+LeftRightPlateInPlace 0
+LeftRightPlate_CamLockScrews1 0
+LeftRightPlate_CamLockScrews12 0
+LeftRightPlate_CamLockScrews12_SupportBracket1 0
+LeftRightPlate_WithConnections_Completed 0
+h1 1 LeftRightPlateInPlace 1 -
+LeftRightPlate
+h2 2 LeftRightPlate_CamLockScrews1 2 -
+LeftRightPlateInPlace
+CamLockScrews1
+h3 2 LeftRightPlate_CamLockScrews12 2 -
+LeftRightPlate_CamLockScrews1
+CamLockScrews2
+h4 4 LeftRightPlate_CamLockScrews12_SupportBracket1 3 -
+SupportBracketSteelParts1
+Screw100344_1
+Screw100344_2
+LeftRightPlate_CamLockScrews12
+h5 1 LeftRightPlate_WithConnections_Completed 1 -
+LeftRightPlate_CamLockScrews12_SupportBracket1

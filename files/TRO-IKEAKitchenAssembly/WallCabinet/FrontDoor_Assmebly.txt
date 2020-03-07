@@ -1,0 +1,23 @@
+FrontDoor_Assmebly 9 FrontDoorAssembled
+FrontDoor_HingeMountingPlateBestaDoorParts 0
+CabinetConnected_middleShelf 0
+Bumper1 0
+Bumper2 0
+FrontDoor_HingeMountingPlateBestaDoorPartsInPlace 0
+Cabinet 0
+Cabinet_Bumper1 0
+Cabinet_Bumper12 0
+FrontDoorAssembled 0
+h1 1 FrontDoor_HingeMountingPlateBestaDoorPartsInPlace 3 -
+FrontDoor_HingeMountingPlateBestaDoorParts
+h2 2 Cabinet 5 -
+FrontDoor_HingeMountingPlateBestaDoorPartsInPlace
+CabinetConnected_middleShelf
+h3 2 Cabinet_Bumper1 2 -
+Cabinet
+Bumper1
+h4 2 Cabinet_Bumper12 2 -
+Cabinet_Bumper1
+Bumper2
+h5 1 FrontDoorAssembled 5 -
+Cabinet_Bumper12

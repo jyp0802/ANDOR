@@ -1,0 +1,19 @@
+SurfaceFaucetHoleScenario 7 SurfaceFaucetHoleMade
+CabinetTopSurface 0
+Faucet 0
+CabinetTopSurfaceInPlace 0
+Faucet_TopSurfaceInPlace 0
+SurfaceFaucetPlaceHighlighted 0
+HoleBorderHighlighted 0
+SurfaceFaucetHoleMade 0
+h1 1 CabinetTopSurfaceInPlace 4 -
+CabinetTopSurface
+h2 2 Faucet_TopSurfaceInPlace 4 -
+CabinetTopSurfaceInPlace
+Faucet
+h3 1 SurfaceFaucetPlaceHighlighted 2 -
+Faucet_TopSurfaceInPlace
+h4 1 HoleBorderHighlighted 4 -
+SurfaceFaucetPlaceHighlighted
+h5 1 SurfaceFaucetHoleMade 10 -
+HoleBorderHighlighted

@@ -1,0 +1,27 @@
+WallCabinetConnected_Assembly 11 WallCabinetConnected_comepleted
+Wall_Screwed 0
+UpDownPlate1st2nd_LeftRightPlate1st2nd_BackPlate_HingesTyssedalWardrobeLavaParts 0
+KeyHoleBrackets1 0
+KeyHoleBrackets2 0
+KeyHoleBrackets1Placed 0
+KeyHoleBrackets12Placed 0
+CoversForWallBracket1 0
+CoversForWallBracket2 0
+CabinetStructurePlacedOnWall 0
+StructureScrewsFixed 0
+WallCabinetConnected_comepleted 0
+h1 2 CabinetStructurePlacedOnWall 3 -
+UpDownPlate1st2nd_LeftRightPlate1st2nd_BackPlate_HingesTyssedalWardrobeLavaParts
+Wall_Screwed
+h2 2 KeyHoleBrackets1Placed 2 -
+CabinetStructurePlacedOnWall
+KeyHoleBrackets1
+h3 2 KeyHoleBrackets12Placed 2 -
+KeyHoleBrackets1Placed
+KeyHoleBrackets2
+h4 1 StructureScrewsFixed 2 -
+KeyHoleBrackets12Placed
+h5 3 WallCabinetConnected_comepleted 2 -
+CoversForWallBracket1
+CoversForWallBracket2
+StructureScrewsFixed

@@ -1,0 +1,27 @@
+MiddleShlef_Assembly 11 CabinetConnected_middleShelf_completed
+MidShelfPlate 0
+ShellPin1 0
+ShellPin2 0
+ShellPin3 0
+ShellPin4 0
+CabinetConnected_ShellPin1 0
+CabinetConnected_ShellPin12 0
+CabinetConnected_ShellPin123 0
+CabinetConnected_ShellPin1234 0
+CabinetConnected_middleShelf_completed 0
+CabinetConnected 0
+h1 2 CabinetConnected_ShellPin1 3 -
+ShellPin1
+CabinetConnected
+h2 2 CabinetConnected_ShellPin12 3 -
+ShellPin2
+CabinetConnected_ShellPin1
+h3 2 CabinetConnected_ShellPin123 3 -
+ShellPin3
+CabinetConnected_ShellPin12
+h4 2 CabinetConnected_ShellPin1234 3 -
+ShellPin4
+CabinetConnected_ShellPin123
+h5 2 CabinetConnected_middleShelf_completed 3 -
+CabinetConnected_ShellPin1234
+MidShelfPlate

@@ -1,0 +1,16 @@
+CabinetHinge_Assembly 7 CabinetHinge_Assembled
+CabinetStructure 0
+CabinetStructure_Hinge1 0
+CabinetHinge_Assembled 0
+Hinge1 1
+Hinge2 0
+Screws692_1 0
+Screws692_2 0
+h1 3 CabinetStructure_Hinge1 4 -
+CabinetStructure
+Hinge1
+Screws692_1
+h2 3 CabinetHinge_Assembled 4 -
+Hinge2
+CabinetStructure_Hinge1
+Screws692_2

@@ -1,0 +1,19 @@
+SurfaceSinkHoleScenario 7 SurfaceSinkHoleMade
+CabinetTopSurface 0
+Sink 0
+CabinetTopSurfaceInPlace 0
+Sink_TopSurfaceInPlace 0
+SurfaceSinkPlaceHighlighted 0
+HoleBorderHighlighted 0
+SurfaceSinkHoleMade 0
+h1 1 CabinetTopSurfaceInPlace 4 -
+CabinetTopSurface
+h2 2 Sink_TopSurfaceInPlace 4 -
+CabinetTopSurfaceInPlace
+Sink
+h3 1 SurfaceSinkPlaceHighlighted 2 -
+Sink_TopSurfaceInPlace
+h4 1 HoleBorderHighlighted 4 -
+SurfaceSinkPlaceHighlighted
+h5 1 SurfaceSinkHoleMade 10 -
+HoleBorderHighlighted

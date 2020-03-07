@@ -1,0 +1,22 @@
+AdjustablesConnections_Assembly 9 LeftRightPlate1st_withAdjustables
+LeftRightPlate 0
+AdjustableFeetSocket1 0
+AdjustableFeetSocket2 0
+AdjustableFeetFoot1 0
+AdjustableFeetFoot2 0
+LeftRightPlate_Socket1 0
+LeftRightPlate_Socket12 0
+LeftRightPlate_SocketFoot1 0
+LeftRightPlate1st_withAdjustables 0
+h1 2 LeftRightPlate_Socket1  3 -
+AdjustableFeetSocket1
+LeftRightPlate
+h2 2 LeftRightPlate_Socket12  3 -
+AdjustableFeetSocket2
+LeftRightPlate_Socket1
+h3 2 LeftRightPlate_SocketFoot1  2 -
+LeftRightPlate_Socket12
+AdjustableFeetFoot1
+h4 2 LeftRightPlate1st_withAdjustables 2 -
+LeftRightPlate_SocketFoot1
+AdjustableFeetFoot2

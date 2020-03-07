@@ -1,0 +1,46 @@
+LeftRightPlate_WithConnections_Assembly 19 LeftRightPlate_WithConnections_Completed
+LeftRightPlate 0
+CamLockScrews1 0
+CamLockScrews2 0
+CamLockScrews3 0
+CamLockScrews4 0
+SupportBracketSteelParts1 0
+SupportBracketSteelParts2 0
+CountersunkScrewsWithFlatHead1 0
+CountersunkScrewsWithFlatHead2 0
+CountersunkScrewsWithFlatHead3 0
+CountersunkScrewsWithFlatHead4 0
+LeftRightPlateInPlace 0
+LeftRightPlate_CamLockScrews1 0
+LeftRightPlate_CamLockScrews12 0
+LeftRightPlate_CamLockScrews123 0
+LeftRightPlate_CamLockScrews1234 0
+LeftRightPlate_CamLockScrews1234_SupportBracket1 0
+LeftRightPlate_CamLockScrews1234_SupportBracket12 0
+LeftRightPlate_WithConnections_Completed 0
+h1 1 LeftRightPlateInPlace 1 -
+LeftRightPlate
+h2 2 LeftRightPlate_CamLockScrews1 2 -
+LeftRightPlateInPlace
+CamLockScrews1
+h3 2 LeftRightPlate_CamLockScrews12 2 -
+LeftRightPlate_CamLockScrews1
+CamLockScrews2
+h4 2 LeftRightPlate_CamLockScrews123 2 -
+LeftRightPlate_CamLockScrews12
+CamLockScrews3
+h5 2 LeftRightPlate_CamLockScrews1234 2 -
+LeftRightPlate_CamLockScrews123
+CamLockScrews4
+h6 4 LeftRightPlate_CamLockScrews1234_SupportBracket1 3 -
+SupportBracketSteelParts1
+CountersunkScrewsWithFlatHead1
+CountersunkScrewsWithFlatHead2
+LeftRightPlate_CamLockScrews1234
+h7 4 LeftRightPlate_CamLockScrews1234_SupportBracket12 3 -
+SupportBracketSteelParts2
+CountersunkScrewsWithFlatHead3
+CountersunkScrewsWithFlatHead4
+LeftRightPlate_CamLockScrews1234_SupportBracket1
+h8 1 LeftRightPlate_WithConnections_Completed 1 -
+LeftRightPlate_CamLockScrews1234_SupportBracket12

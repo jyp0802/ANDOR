@@ -1,0 +1,14 @@
+WoodenPlank_SupportBracket_Assembly 6 WoodenPlank_withBracket
+WoodenPlank 0
+SupportBracket 0
+Screw100344_1 0
+Screw100344_2 0
+WoodenPlankInPlace 0
+WoodenPlank_withBracket 0
+h1 1 WoodenPlankInPlace 2 -
+WoodenPlank
+h2 4 WoodenPlank_withBracket 4 -
+WoodenPlankInPlace
+SupportBracket
+Screw100344_1
+Screw100344_2

@@ -1,0 +1,26 @@
+BottomPlate_LeftRightPlate_Assembly 10 BottomPlates_LeftRightPlate_Completed
+Plates_WithDowels 0
+LeftRightPlate_WithConnections 0
+Plate_WithDowels_InPlace 0
+LeftRightPlate_WithConnections_InPlace 0
+CamLockNut1 0
+CamLockNut2 0
+LeftRightPlate_BottomPlates_TmpConnected 0
+LeftRightPlate_BottomPlates_TmpConnected_Nut1 0
+LeftRightPlate_BottomPlates_TmpConnected_Nut12 0
+BottomPlates_LeftRightPlate_Completed 0
+h1 1 Plate_WithDowels_InPlace 1 -
+Plates_WithDowels
+h2 2 LeftRightPlate_WithConnections_InPlace 2 -
+LeftRightPlate_WithConnections
+Plate_WithDowels_InPlace
+h3 1 LeftRightPlate_BottomPlates_TmpConnected 5 -
+LeftRightPlate_WithConnections_InPlace
+h4 2 LeftRightPlate_BottomPlates_TmpConnected_Nut1 5 -
+LeftRightPlate_BottomPlates_TmpConnected
+CamLockNut1
+h5 2 LeftRightPlate_BottomPlates_TmpConnected_Nut12 5 -
+LeftRightPlate_BottomPlates_TmpConnected_Nut1
+CamLockNut2
+h6 1 BottomPlates_LeftRightPlate_Completed 1 -
+LeftRightPlate_BottomPlates_TmpConnected_Nut12

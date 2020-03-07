@@ -1,0 +1,23 @@
+KitchenAssembly 9 KitchenCompleted
+LargeWallCabinetParts 0
+LargeWallCabinet 0
+SmallWallCabinetParts 0
+SmallWallCabinet 0
+WideDoubleDoorWallCabinetParts 0
+WideDoubleDoorWallCabinet 0
+BaseCabinetWithFaucetSinkParts 0
+BaseCabinetWithFaucetSink 0
+KitchenCompleted 0
+h1 1 LargeWallCabinet 5 LargeWallCabinet_Assembly
+LargeWallCabinetParts
+h2 1 SmallWallCabinet 5 LargeWallCabinet_Assembly
+SmallWallCabinetParts
+h3 1 WideDoubleDoorWallCabinet 5 WideDoubleDoorWallCabinet_Assembly
+WideDoubleDoorWallCabinetParts
+h4 1 BaseCabinetWithFaucetSink 10 BaseCabinetWithFaucetSink_Assembly
+BaseCabinetWithFaucetSinkParts
+h5 4 KitchenCompleted 1 -
+LargeWallCabinet
+SmallWallCabinet
+WideDoubleDoorWallCabinet
+BaseCabinetWithFaucetSink

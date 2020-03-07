@@ -1,0 +1,32 @@
+FrontDoor_HingeMountingPlateBestaDoorParts_Assembly 13 FrontDoor_HingeMountingPlateBestaDoorParts_completed
+HingeMountingPlateBestaDoorPart1 0
+HingeMountingPlateBestaDoorPart2 0
+FrontDoor 0
+ScrewWithNeck1 0
+ScrewWithNeck2 0
+ScrewWithNeck3 0
+ScrewWithNeck4 0
+FrontDoorInPlace 0
+FrontDoorHinge1Screw1 0
+FrontDoorHinge1Screw12 0
+FrontDoorHinge12Screw1 0
+FrontDoorHinge12Screw12 0
+FrontDoor_HingeMountingPlateBestaDoorParts_completed 0
+h1 1 FrontDoorInPlace 2 -
+FrontDoor
+h2 3 FrontDoorHinge1Screw1 4 -
+FrontDoorInPlace
+HingeMountingPlateBestaDoorPart1
+ScrewWithNeck1
+h3 2 FrontDoorHinge1Screw12 2 -
+FrontDoorHinge1Screw1
+ScrewWithNeck2
+h4 3 FrontDoorHinge12Screw1 4 -
+FrontDoorHinge1Screw12
+HingeMountingPlateBestaDoorPart2
+ScrewWithNeck3
+h5 2 FrontDoorHinge12Screw12 2 -
+FrontDoorHinge12Screw1
+ScrewWithNeck4
+h6 1 FrontDoor_HingeMountingPlateBestaDoorParts_completed 1 -
+FrontDoorHinge12Screw12

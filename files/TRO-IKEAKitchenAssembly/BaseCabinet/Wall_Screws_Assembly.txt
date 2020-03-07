@@ -1,0 +1,17 @@
+Wall_Screws_Assembly 7 Wall_Screws_compeleted
+WallSigned 0
+Wall_Screws1 0
+Wall_Screws12 0
+Wall_Screws_compeleted 0
+Screw1 0
+Screw2 0
+Screw3 0
+h1 2 Wall_Screws1 5 -
+WallSigned
+Screw1
+h2 2 Wall_Screws12 5 -
+Wall_Screws1
+Screw2
+h3 2 Wall_Screws_compeleted 3 -
+Wall_Screws12
+Screw3

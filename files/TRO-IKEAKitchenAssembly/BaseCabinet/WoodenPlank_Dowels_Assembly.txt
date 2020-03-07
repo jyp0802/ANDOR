@@ -1,0 +1,18 @@
+WoodenPlank_WithDowels_Assembly 7 WoodenPlank_WithDowels_Completed
+WoodenPlank 0
+WoodDowel1 0
+WoodDowel2 0
+WoodenPlank_WoodDowel1 0
+WoodenPlank_WoodDowel12 0
+WoodenPlank_WithDowels_Completed 0
+WoodenPlankInPlace 0
+h1 1 WoodenPlankInPlace 1 -
+WoodenPlank
+h2 2 WoodenPlank_WoodDowel1 1 -
+WoodenPlankInPlace
+WoodDowel1
+h3 2 WoodenPlank_WoodDowel12 1 -
+WoodenPlank_WoodDowel1
+WoodDowel2
+h4 1 WoodenPlank_WithDowels_Completed 1 -
+WoodenPlank_WoodDowel12

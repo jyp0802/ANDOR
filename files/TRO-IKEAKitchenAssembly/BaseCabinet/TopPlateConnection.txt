@@ -1,0 +1,42 @@
+TopPlateConnection 17 TopPlateConnected
+TopPlateConnected 0
+TopPlate 0
+Screw029_1 0
+Screw029_2 0
+Screw029_3 0
+Screw029_4 0
+Screw029_5 0
+Screw029_6 0
+Screw029_7 0
+Screw029_8 0
+TopPlate_Screw1 0
+TopPlate_Screw12 0
+TopPlate_Screw123 0
+TopPlate_Screw1234 0
+TopPlate_Screw12345 0
+TopPlate_Screw123456 0
+TopPlate_Screw1234567 0
+h1 2 TopPlate_Screw1 5 -
+Screw029_1
+TopPlate
+h2 2 TopPlate_Screw12 5 -
+Screw029_2
+TopPlate_Screw1
+h3 2 TopPlate_Screw123 5 -
+Screw029_3
+TopPlate_Screw12
+h4 2 TopPlate_Screw1234 5 -
+Screw029_4
+TopPlate_Screw123
+h5 2 TopPlate_Screw12345 5 -
+Screw029_5
+TopPlate_Screw1234
+h6 2 TopPlate_Screw123456 5 -
+Screw029_6
+TopPlate_Screw12345
+h7 2 TopPlate_Screw1234567 5 -
+Screw029_7
+TopPlate_Screw123456
+h8 2 TopPlateConnected 5 -
+Screw029_8
+TopPlate_Screw1234567

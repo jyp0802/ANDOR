@@ -1,0 +1,34 @@
+BaseCabinetWithFaucetSink_Assembly 15 BaseCabinetWithSurfaceFaucetSinkStrainer_Completed
+BaseCabinetParts 0
+BaseCabinet_Assembled 0
+BaseCabinetSurface_Assembled 0
+FaucetParts 0
+Faucet 0
+BaseCabinetSurface_Faucet_Assembled 0
+SinkParts 0
+Sink 0
+BaseCabinetSurface_Faucet_Sink_Assembled 0
+SinkStrainerParts 0
+SinkStrainer_Assembled 0
+BaseCabinetSurface 0
+BaseCabinetSurface_withSinkHole 0
+BaseCabinetSurface_withSinkHole_withFaucetHole 0
+BaseCabinetWithSurfaceFaucetSinkStrainer_Completed 0
+h1 2 BaseCabinetSurface_withSinkHole 5 SurfaceSinkHoleScenario
+BaseCabinetSurface
+Sink
+h2 2 BaseCabinetSurface_withSinkHole_withFaucetHole 5 SurfaceFaucetHoleScenario
+BaseCabinetSurface_withSinkHole
+Faucet
+h3 2 BaseCabinet_Assembled 50 BaseCabinet_Assembly
+BaseCabinetParts
+BaseCabinetSurface_withSinkHole_withFaucetHole
+h4 2 BaseCabinetSurface_Faucet_Assembled 10 FaucetAssembly
+BaseCabinet_Assembled
+FaucetParts
+h5 2 BaseCabinetSurface_Faucet_Sink_Assembled 10 SinkAssembly
+BaseCabinetSurface_Faucet_Assembled
+SinkParts
+h6 2 BaseCabinetWithSurfaceFaucetSinkStrainer_Completed 10 StrainerAssembly
+SinkStrainerParts
+BaseCabinetSurface_Faucet_Sink_Assembled
