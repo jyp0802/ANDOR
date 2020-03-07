@@ -1,0 +1,280 @@
+
+TableAssembly 25 Table_FinalPose
+#################### NODES
+Plate_initPose 0
+Plate_assemblyPose 0
+Table_FinalPose 0
+
+Leg1_T 0
+Leg1_middlePose 0
+Leg1_Plate_connected 0
+
+Leg2_T 0
+Leg2_middlePose 0
+Leg2_Plate_connected 0
+
+Leg3_T 0
+Leg3_middlePose 0
+Leg3_Plate_connected 0
+
+
+Leg1_12_middlePose 0
+Leg2_12_middlePose 0
+Leg1_2_Plate_connected 0
+
+Leg1_13_middlePose 0
+Leg3_13_middlePose 0
+Leg1_3_Plate_connected 0
+
+Leg2_23_middlePose 0
+Leg3_23_middlePose 0
+Leg2_3_Plate_connected 0
+
+
+Leg1_123_middlePose 0
+Leg2_123_middlePose 0
+Leg3_123_middlePose 0
+Leg1_2_3_Plate_connected 0
+
+#################### HYPER-ARCS
+h0 1 Plate_assemblyPose 1 -
+Plate_initPose
+############## ONE LEG
+# Leg1 + Plate
+h1 2 Leg1_Plate_connected 1 -
+Leg1_T
+Plate_assemblyPose
+
+h2_human 2 Leg1_Plate_connected 5 -
+Leg1_T
+Plate_assemblyPose
+
+h3 2 Leg1_middlePose 2 -
+Leg1_T
+Plate_assemblyPose
+
+h4 1 Leg1_Plate_connected 1 -
+Leg1_middlePose
+
+h5_human 1 Leg1_Plate_connected 2 -
+Leg1_middlePose
+
+# leg2 + Plate
+h6 2 Leg2_Plate_connected 1 -
+Leg2_T
+Plate_assemblyPose
+
+h7_human 2 Leg2_Plate_connected 5 -
+Leg2_T
+Plate_assemblyPose
+
+h8 2 Leg2_middlePose 2 -
+Leg2_T
+Plate_assemblyPose
+
+h9 1 Leg2_Plate_connected 1 -
+Leg2_middlePose
+
+h10_human 1 Leg2_Plate_connected 2 -
+Leg2_middlePose
+
+# leg3 + Plate
+h11 2 Leg3_Plate_connected 1 -
+Leg3_T
+Plate_assemblyPose
+
+h12_human 2 Leg3_Plate_connected 5 -
+Leg3_T
+Plate_assemblyPose
+
+h13 2 Leg3_middlePose 2 -
+Leg3_T
+Plate_assemblyPose
+
+h14 1 Leg3_Plate_connected 1 -
+Leg3_middlePose
+
+h15_human 1 Leg3_Plate_connected 2 -
+Leg3_middlePose
+
+############## TWO LEGS
+
+### leg2 + leg1Plate (all of the following ones compose a large hyper-arcs to the same node: Leg1_2_Plate_connected)
+h16 2 Leg1_2_Plate_connected 1 -
+Leg2_T
+Leg1_Plate_connected
+
+h17_human 2 Leg1_2_Plate_connected 5 -
+Leg2_T
+Leg1_Plate_connected
+
+h18 2 Leg2_12_middlePose 2 - # this means leg2 for leg1+leg2 composition goes to middle pose.
+Leg2_T
+Leg1_Plate_connected
+
+h19 1 Leg1_2_Plate_connected 1 -
+Leg2_12_middlePose
+
+h20_human 1 Leg1_2_Plate_connected 2 -
+Leg2_12_middlePose
+
+# leg1 + leg2Plate
+h21 2 Leg1_2_Plate_connected 1 -
+Leg1_T
+Leg2_Plate_connected
+
+h22_human 2 Leg1_2_Plate_connected 5 -
+Leg1_T
+Leg2_Plate_connected
+
+h23 2 Leg1_12_middlePose 2 -
+Leg1_T
+Leg2_Plate_connected
+
+h24 1 Leg1_2_Plate_connected 1 -
+Leg1_12_middlePose
+
+h25_human 1 Leg1_2_Plate_connected 2 -
+Leg1_12_middlePose
+
+
+### leg3 + leg1Plate  (all of the following ones compose a large hyper-arcs to the same node: Leg1_3_Plate_connected)
+h26 2 Leg1_3_Plate_connected 1 -
+Leg3_T
+Leg1_Plate_connected
+
+h27_human 2 Leg1_3_Plate_connected 5 -
+Leg3_T
+Leg1_Plate_connected
+
+h28 2 Leg3_13_middlePose 2 -
+Leg3_T
+Leg1_Plate_connected
+
+h29 1 Leg1_3_Plate_connected 1 -
+Leg3_13_middlePose
+
+h30_human 1 Leg1_3_Plate_connected 2 -
+Leg3_13_middlePose
+
+### leg1 + leg3Plate
+h31 2 Leg1_3_Plate_connected 1 -
+Leg1_T
+Leg3_Plate_connected
+
+h32_human 2 Leg1_3_Plate_connected 5 -
+Leg1_T
+Leg3_Plate_connected
+
+h33 2 Leg1_13_middlePose 2 -
+Leg1_T
+Leg3_Plate_connected
+
+h34 1 Leg1_3_Plate_connected 1 -
+Leg1_13_middlePose
+
+h35_human 1 Leg1_3_Plate_connected 2 -
+Leg1_13_middlePose
+
+
+### leg3 + leg2Plate  (all of the following ones compose a large hyper-arcs to the same node: Leg2_3_Plate_connected. in total 2 large hyperarcs)
+h36 2 Leg2_3_Plate_connected 1 -
+Leg3_T
+Leg2_Plate_connected
+
+h37_human 2 Leg2_3_Plate_connected 5 -
+Leg3_T
+Leg2_Plate_connected
+
+h38 2 Leg3_23_middlePose 2 -
+Leg3_T
+Leg2_Plate_connected
+
+h39 1 Leg2_3_Plate_connected 1 -
+Leg3_23_middlePose
+
+h40_human 1 Leg2_3_Plate_connected 2 -
+Leg3_23_middlePose
+
+### leg2 + leg3Plate
+h41 2 Leg2_3_Plate_connected 1 -
+Leg2_T
+Leg3_Plate_connected
+
+h42_human 2 Leg2_3_Plate_connected 5 -
+Leg2_T
+Leg3_Plate_connected
+
+h43 2 Leg2_23_middlePose 2 -
+Leg2_T
+Leg3_Plate_connected
+
+h44 1 Leg2_3_Plate_connected 1 -
+Leg2_23_middlePose
+
+h45_human 1 Leg2_3_Plate_connected 2 -
+Leg2_23_middlePose
+
+############## THREE LEGS
+### leg1 + leg2leg3Plate  (all of the following ones compose a large hyper-arcs to the same node: Leg1_2_3_Plate_connected. in total 3 large hyperarcs)
+
+h46 2 Leg1_2_3_Plate_connected 1 -
+Leg1_T
+Leg2_3_Plate_connected
+
+h47_human 2 Leg1_2_3_Plate_connected 5 -
+Leg1_T
+Leg2_3_Plate_connected
+
+h48 2 Leg1_123_middlePose 2 -
+Leg1_T
+Leg2_3_Plate_connected
+
+h49 1 Leg1_2_3_Plate_connected 1 -
+Leg1_123_middlePose
+
+h50_human 1 Leg1_2_3_Plate_connected 2 -
+Leg1_123_middlePose
+
+### leg2 + leg1leg3Plate
+h51 2 Leg1_2_3_Plate_connected 1 -
+Leg2_T
+Leg1_3_Plate_connected
+
+h52_human 2 Leg1_2_3_Plate_connected 5 -
+Leg2_T
+Leg1_3_Plate_connected
+
+h53 2 Leg2_123_middlePose 2 -
+Leg2_T
+Leg1_3_Plate_connected
+
+h54 1 Leg1_2_3_Plate_connected 1 -
+Leg2_123_middlePose
+
+h55_human 1 Leg1_2_3_Plate_connected 2 -
+Leg2_123_middlePose
+
+### leg3 + leg1leg2Plate
+h56 2 Leg1_2_3_Plate_connected 1 -
+Leg3_T
+Leg1_2_Plate_connected
+
+h57_human 2 Leg1_2_3_Plate_connected 5 -
+Leg3_T
+Leg1_2_Plate_connected
+
+h58 2 Leg3_123_middlePose 2 -
+Leg3_T
+Leg1_2_Plate_connected
+
+h59 1 Leg1_2_3_Plate_connected 1 -
+Leg3_123_middlePose
+
+h60_human 1 Leg1_2_3_Plate_connected 2 -
+Leg3_123_middlePose
+
+
+# DONE
+h31 1 Table_FinalPose 1 -
+Leg1_2_3_Plate_connected

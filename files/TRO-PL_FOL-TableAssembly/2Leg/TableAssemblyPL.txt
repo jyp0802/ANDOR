@@ -1,0 +1,69 @@
+TableAssembly 12 Table_FinalPose
+Plate_initPose 0
+Plate_assemblyPose 0
+Table_FinalPose 0
+Leg1_T 0
+Leg1_middlePose 0
+Leg1_Plate_connected 0
+Leg2_T 0
+Leg2_middlePose 0
+Leg2_Plate_connected 0
+Leg1_12_middlePose 0
+Leg2_12_middlePose 0
+Leg1_2_Plate_connected 0
+h0 1 Plate_assemblyPose 1 -
+Plate_initPose
+h1 2 Leg1_Plate_connected 1 -
+Leg1_T
+Plate_assemblyPose
+h2_human 2 Leg1_Plate_connected 5 -
+Leg1_T
+Plate_assemblyPose
+h3 2 Leg1_middlePose 2 -
+Leg1_T
+Plate_assemblyPose
+h4 1 Leg1_Plate_connected 1 -
+Leg1_middlePose
+h5_human 1 Leg1_Plate_connected 2 -
+Leg1_middlePose
+h6 2 Leg2_Plate_connected 1 -
+Leg2_T
+Plate_assemblyPose
+h7_human 2 Leg2_Plate_connected 5 -
+Leg2_T
+Plate_assemblyPose
+h8 2 Leg2_middlePose 2 -
+Leg2_T
+Plate_assemblyPose
+h9 1 Leg2_Plate_connected 1 -
+Leg2_middlePose
+h10_human 1 Leg2_Plate_connected 2 -
+Leg2_middlePose
+h11 2 Leg1_2_Plate_connected 1 -
+Leg2_T
+Leg1_Plate_connected
+h12_human 2 Leg1_2_Plate_connected 5 -
+Leg2_T
+Leg1_Plate_connected
+h13 2 Leg2_12_middlePose 2 -
+Leg2_T
+Leg1_Plate_connected
+h14 1 Leg1_2_Plate_connected 1 -
+Leg2_12_middlePose
+h15_human 1 Leg1_2_Plate_connected 2 -
+Leg2_12_middlePose
+h16 2 Leg1_2_Plate_connected 1 -
+Leg1_T
+Leg2_Plate_connected
+h17_human 2 Leg1_2_Plate_connected 5 -
+Leg1_T
+Leg2_Plate_connected
+h18 2 Leg1_12_middlePose 2 -
+Leg1_T
+Leg2_Plate_connected
+h19 1 Leg1_2_Plate_connected 1 -
+Leg1_12_middlePose
+h20_human 1 Leg1_2_Plate_connected 2 -
+Leg1_12_middlePose
+h21 1 Table_FinalPose 1 -
+Leg1_2_Plate_connected

@@ -1,0 +1,33 @@
+TableAssembly 6 Table_FinalPose
+#################### NODES
+Plate_initPose 0
+Plate_assemblyPose 0
+Table_FinalPose 0
+Leg1_T 0
+Leg1_middlePose 0
+Leg1_Plate_connected 0
+#################### HYPER-ARCS
+h0 1 Plate_assemblyPose 1 -
+Plate_initPose
+# Leg1 + Plate
+h1 2 Leg1_Plate_connected 1 -
+Leg1_T
+Plate_assemblyPose
+
+h2_human 2 Leg1_Plate_connected 5 -
+Leg1_T
+Plate_assemblyPose
+
+h3 2 Leg1_middlePose 2 -
+Leg1_T
+Plate_assemblyPose
+
+h4 1 Leg1_Plate_connected 1 -
+Leg1_middlePose
+
+h5_human 1 Leg1_Plate_connected 2 -
+Leg1_middlePose
+
+# DONE
+h6 1 Table_FinalPose 1 -
+Leg1_Plate_connected
