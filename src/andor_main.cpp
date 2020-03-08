@@ -122,9 +122,9 @@ int main(int argc, char **argv)
 	const char* home=getenv("HOME");
 	string andor_file_path(home), andor_file_name, andor_graph_name ;
 
-	andor_graph_name = "TableAssembly"; //!< Notice that, this name will be replaced with the name written in the and/or graph file description
-	andor_file_path+="/catkin_ws/src/ANDOR/files/TableAssembly2/"; //!< The path to the uploaded AND/OR graph
-	andor_file_name="TableAssembly_hierarchical";                                    //!< The name of the uploaded AND/OR graph
+	andor_graph_name = ""; //!< Notice that, this name will be replaced with the name written in the and/or graph file description
+	andor_file_path+="/catkin_ws/src/ANDOR/files/TRO-IKEAKitchenAssembly/"; //!< The path to the uploaded AND/OR graph
+	andor_file_name="KitchenAssembly";                                    //!< The name of the uploaded AND/OR graph
 
 	andorCallback callack_obj(andor_graph_name, andor_file_path, andor_file_name);
 	ros::ServiceServer service = nh.advertiseService("andorService", &andorCallback::updateANDOR, &callack_obj); //!< The ROS service for querying from the AND/OR graph

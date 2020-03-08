@@ -1,3 +1,3 @@
 string nodeName
-int8 nodeCost
+uint64 nodeCost
 string graphName

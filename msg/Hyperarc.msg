@@ -1,5 +1,5 @@
 string hyperarcName
-int8 hyperarcCost
+uint64 hyperarcCost
 string parentNode
 string[] childNodes
 string graphName
