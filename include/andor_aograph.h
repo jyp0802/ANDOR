@@ -17,6 +17,7 @@
 #include <andor/Hyperarc.h>
 #include <andor/Node.h>
 #include <boost/algorithm/string.hpp>
+#include <bits/stdc++.h>
 
 using namespace std;
 

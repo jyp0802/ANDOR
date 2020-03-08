@@ -286,7 +286,7 @@ void AOgraph::generatePaths()
 	// if the head node is NULL, there are no paths to generate
 	if (head == NULL)
 	{
-		cout<<"[WARNING] There is no graph to navigate (head == NULL)." <<endl;
+		cout<<"[AOgraph::generatePaths] graph name: "<< gName <<"[WARNING] There is no graph to navigate (head == NULL)." <<endl;
 		return;
 	}
 
@@ -750,6 +750,9 @@ void AOgraph::loadFromFile(string filePath, string fileName)
 				break;
 			addNode(nameNode, cost);
 		}
+		// cout<<"1"<<name<<" "<<headName<<endl;
+		head = findByName(headName);
+		// cout<<"head found"<< (head==NULL) << endl;
 
 		// the next X lines contain the descriptions of the hyper-arcs in the graph
 		int hyperarcIndex = 0;
@@ -794,7 +797,7 @@ void AOgraph::loadFromFile(string filePath, string fileName)
 
 				newGraph->loadFromFile(filePath,lowerGraphName);
 
-				int newHACost=9999999; //!< if a hyper-arc owns a lower level graph(g), the hyper-arc cost equals to the minimum path cost of the g.
+				int newHACost=INT_MAX; //!< if a hyper-arc owns a lower level graph(g), the hyper-arc cost equals to the minimum path cost of the g.
 				// the graph cost should be less than the maximum amount written above
 				for(int i=0;i<newGraph->paths.size();i++ )
 					if(newGraph->paths[i].pCost<newHACost)
@@ -809,7 +812,7 @@ void AOgraph::loadFromFile(string filePath, string fileName)
 			hyperarcIndex = hyperarcIndex+1;
 		}
 		// identify the head node in the graph
-		head = findByName(headName);
+		// head = findByName(headName);
 
 	}
 	graphFile.close();
@@ -827,6 +830,7 @@ void AOgraph::loadFromFile(string filePath, string fileName)
 	}
 }
 
+//! display graph information
 void AOgraph::printGraphInfo()
 {
 	cout<<endl;
@@ -945,7 +949,7 @@ void AOgraph::getFeasibleNode(vector<andor::Node> &feasileNodeVector)
 	{
 		if(graph[i].nFeasible==true && graph[i].nSolved==false)
 		{
-			int min_cost=10000; // the highest cost value
+			int min_cost=INT_MAX; // the highest cost value
 			// if the node exits in several graph paths, we find the minimum cost from there
 			for(int j=0; j<(int)paths.size();j++)
 			{
@@ -980,7 +984,7 @@ void AOgraph::getFeasibleHyperarc(vector<andor::Hyperarc> &feasileHyperarcVector
 	{
 		if(graphHA[i]->hFeasible==true && graphHA[i]->hSolved==false)
 		{
-			int min_cost=10000; // the highest cost value
+			int min_cost=INT_MAX; // the highest cost value
 			// if the ha exits in several graph path, we find the min cost from there
 			for(int j=0; j<(int)paths.size();j++)
 			{
