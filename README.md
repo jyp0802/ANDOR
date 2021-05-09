@@ -61,10 +61,17 @@ If you have any question regarding the implementation, you can open an issue in 
 :email: kourosh.darvish@gmail.com
 
 # :page_facing_up: References
+If you're going to use this package for your work, please quote the following papers within any resulting publication:
 
-[K. Darvish, F. Wanderlingh, B. Bruno, E. Simetti, F. Mastrogiovanni, and G. Casalino, ''Flexible human-robot cooperation models for assisted shop-floor tasks,'' Mechatronics, vol. 51, pp. 97–114, 2018.](https://www.sciencedirect.com/science/article/pii/S0957415818300485)
+
 ```
-@article{DARVISH201897,
+K. Darvish, F. Wanderlingh, B. Bruno, E. Simetti, F. Mastrogiovanni, and G. Casalino, "Flexible human-robot cooperation models for assisted shop-floor tasks," Mechatronics, vol. 51, pp. 97–114, 2018.
+```
+```
+K. Darvish, E. Simetti, F. Mastrogiovanni and G. Casalino, "A Hierarchical Architecture for Human–Robot Cooperation Processes," in IEEE Transactions on Robotics, vol. 37, no. 2, pp. 567-586, 2021.
+```
+```
+@article{DARVISH2018,
 title = "Flexible human–robot cooperation models for assisted shop-floor tasks",
 journal = "Mechatronics",
 volume = "51",
@@ -75,6 +82,16 @@ doi = "https://doi.org/10.1016/j.mechatronics.2018.03.006",
 url = "http://www.sciencedirect.com/science/article/pii/S0957415818300485",
 author = "Kourosh Darvish and Francesco Wanderlingh and Barbara Bruno and Enrico Simetti and Fulvio Mastrogiovanni and Giuseppe Casalino",
 }
+
+@ARTICLE{Darvish2021,
+author={Darvish, Kourosh and Simetti, Enrico and Mastrogiovanni, Fulvio and Casalino, Giuseppe},
+journal={IEEE Transactions on Robotics},
+title={A Hierarchical Architecture for Human–Robot Cooperation Processes},
+year={2021},
+volume={37},
+number={2},
+pages={567-586},
+doi={10.1109/TRO.2020.3033715}}
 ```
 # :information_source: Further information
 
