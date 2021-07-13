@@ -64,6 +64,7 @@ include_directories(
 )
 
 #ADD_LIBRARY(endor /home/nasa/Documents/Endor/endor-master/aograph.cpp)
+add_library(andor_visualize include/andor_visualize.cpp)
 add_library(andor_aonode include/andor_aonode.cpp)
 add_library(andor_aograph include/andor_aograph.cpp)
 add_library(andor_callback include/andorCallback.cpp)
@@ -85,6 +86,7 @@ add_dependencies(example  andor_msgs_generate_messages_cpp) #geometry_msgs_gener
 ## Specify libraries to link a library or executable target against
 target_link_libraries(andor
    ${catkin_LIBRARIES}
+andor_visualize
 andor_aonode
 andor_aograph
 andor_callback
@@ -94,4 +96,5 @@ target_link_libraries(example
 )
 
 target_link_libraries(andor_aograph andor_aonode)
+target_link_libraries(andor_aograph andor_visualize)
 target_link_libraries(andor_callback andor_aograph)

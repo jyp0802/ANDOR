@@ -13,6 +13,7 @@
 #include <algorithm>
 #include <fstream>
 
+#include "andor_visualize.h"
 #include "andor_aonode.h"
 #include <andor/Hyperarc.h>
 #include <andor/Node.h>

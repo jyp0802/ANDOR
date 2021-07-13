@@ -1,2 +1,4 @@
 *~
 andor/docs/html/
+files/**/*.dot
+files/**/*.png

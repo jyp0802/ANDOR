@@ -1,0 +1,6 @@
+<launch>
+	<!-- Run flatten_pointcloud -->
+	<node pkg="andor" type="andor" name="andor" output="screen">
+		<rosparam command="load" file="$(find andor)/config.yaml" />
+	</node>
+</launch>

@@ -1,0 +1,8 @@
+# name written in the AND/OR graph file description
+andor_graph_name: "TableAssembly"
+
+# folder containing the AND/OR graph
+andor_file_path: "/home/junyong/HRI/andor/catkin_ws/src/ANDOR/files/TRO-TableAssembly/2Leg/"
+
+# name of the text file of the AND/OR graph
+andor_file_name: "TableAssembly_hierarchical"
